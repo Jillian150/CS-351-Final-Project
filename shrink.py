@@ -1,6 +1,6 @@
 import csv
 
-# ---- Settings: list your downloaded Goodreads CSV files here ----
+# Settings: list your downloaded Goodreads CSV files here
 FILES = ["book1-100k.csv", "book100k-200k.csv"]
 SIZES = [1000, 10000, 100000, 1000000]
 
