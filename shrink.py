@@ -28,7 +28,7 @@ for n in SIZES:
     else:
         print("Not enough books for", n)
 
-# 3. Fixed search prefixes: first 3 letters of the first 1,000 titles, no repeats
+# 3. Fixed search prefixes: first 3 letters of the first 1,000 titles, no repeats(Can change line 33 for number of titles and prefixes as needed)
 prefixes = []
 for title in titles[:1000]:
     p = title.lower()[:3]
